@@ -1,0 +1,38 @@
+.data-wrapper{
+    width: 50%;
+    height: 100vh;
+    font-size: 1.2rem;
+}
+
+.table-header{
+    background-color: skyblue;
+}
+
+.table-body{
+    background-color: ghostwhite;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.table-body:hover{
+    background-color: antiquewhite;
+    scale: 1.03;
+}
+
+.row{
+    border-radius: 10px;
+    margin: 1rem 1.5rem;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 2fr);
+}
+.sell{
+    padding: 0.5rem 1rem;
+}
+
+.active{
+    background-color: silver;
+}
+
